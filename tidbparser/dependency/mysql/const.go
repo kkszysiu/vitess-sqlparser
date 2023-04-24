@@ -121,7 +121,7 @@ const (
 
 // Client information.
 const (
-	ClientLongPassword uint32 = 1 << iota
+	ClientLongPassword uint64 = 1 << iota
 	ClientFoundRows
 	ClientLongFlag
 	ClientConnectWithDB
@@ -176,7 +176,7 @@ const (
 )
 
 // PrivilegeType  privilege
-type PrivilegeType uint32
+type PrivilegeType uint64
 
 const (
 	_ PrivilegeType = 1 << iota
