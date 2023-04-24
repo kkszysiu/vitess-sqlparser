@@ -18,10 +18,10 @@ import (
 	"math"
 	"unsafe"
 
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/mysql"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/types"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/types/json"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/util/hack"
+	"github.com/kkszysiu/vitess-sqlparser/tidbparser/dependency/mysql"
+	"github.com/kkszysiu/vitess-sqlparser/tidbparser/dependency/types"
+	"github.com/kkszysiu/vitess-sqlparser/tidbparser/dependency/types/json"
+	"github.com/kkszysiu/vitess-sqlparser/tidbparser/dependency/util/hack"
 )
 
 // MutRow represents a mutable Row.
