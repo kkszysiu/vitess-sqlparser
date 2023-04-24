@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/model"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/mysql"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/util/auth"
+	"github.com/kkszysiu/vitess-sqlparser/tidbparser/dependency/model"
+	"github.com/kkszysiu/vitess-sqlparser/tidbparser/dependency/mysql"
+	"github.com/kkszysiu/vitess-sqlparser/tidbparser/dependency/util/auth"
 )
 
 var (

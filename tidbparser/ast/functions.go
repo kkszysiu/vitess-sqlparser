@@ -17,8 +17,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/model"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/types"
+	"github.com/kkszysiu/vitess-sqlparser/tidbparser/dependency/model"
+	"github.com/kkszysiu/vitess-sqlparser/tidbparser/dependency/types"
 )
 
 var (

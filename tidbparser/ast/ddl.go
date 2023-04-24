@@ -14,8 +14,8 @@
 package ast
 
 import (
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/model"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/types"
+	"github.com/kkszysiu/vitess-sqlparser/tidbparser/dependency/model"
+	"github.com/kkszysiu/vitess-sqlparser/tidbparser/dependency/types"
 )
 
 var (
@@ -276,10 +276,12 @@ func (n *ColumnOption) Accept(v Visitor) (Node, bool) {
 }
 
 // IndexOption is the index options.
-//    KEY_BLOCK_SIZE [=] value
-//  | index_type
-//  | WITH PARSER parser_name
-//  | COMMENT 'string'
+//
+//	  KEY_BLOCK_SIZE [=] value
+//	| index_type
+//	| WITH PARSER parser_name
+//	| COMMENT 'string'
+//
 // See http://dev.mysql.com/doc/refman/5.7/en/create-table.html
 type IndexOption struct {
 	node
@@ -714,7 +716,7 @@ const (
 	AlterTableAlterColumn
 	AlterTableLock
 
-// TODO: Add more actions
+	// TODO: Add more actions
 )
 
 // LockType is the type for AlterTableSpec.
