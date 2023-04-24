@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/terror"
 	"github.com/juju/errors"
+	"github.com/kkszysiu/vitess-sqlparser/tidbparser/dependency/terror"
 )
 
 // ActionType is the type for DDL action.

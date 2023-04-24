@@ -21,11 +21,11 @@ import (
 	"io"
 	"strings"
 
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/mysql"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/terror"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/util/charset"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/parser/opcode"
 	"github.com/juju/errors"
+	"github.com/kkszysiu/vitess-sqlparser/tidbparser/dependency/mysql"
+	"github.com/kkszysiu/vitess-sqlparser/tidbparser/dependency/terror"
+	"github.com/kkszysiu/vitess-sqlparser/tidbparser/dependency/util/charset"
+	"github.com/kkszysiu/vitess-sqlparser/tidbparser/parser/opcode"
 )
 
 // IsTypeBlob returns a boolean indicating whether the tp is a blob type.

@@ -14,8 +14,8 @@
 package types
 
 import (
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/mysql"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/terror"
+	"github.com/kkszysiu/vitess-sqlparser/tidbparser/dependency/mysql"
+	"github.com/kkszysiu/vitess-sqlparser/tidbparser/dependency/terror"
 )
 
 var (
